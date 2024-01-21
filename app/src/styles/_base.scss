@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: $color-primary;
+  background-image: linear-gradient(#a185e9, #f0dbbc);
+  height: calc(100vh - 6em);
+  padding: 3em;
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
